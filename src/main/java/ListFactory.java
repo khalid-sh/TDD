@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ListFactory {
 
-    public List getList() {
+    public static List getList() {
         List list = new ArrayList<>();
        return list;
     }
